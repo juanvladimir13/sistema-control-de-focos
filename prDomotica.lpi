@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="11"/>
+    <General>
+      <Flags>
+        <MainUnitHasUsesSectionForAllUnits Value="False"/>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+        <MainUnitHasScaledStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="prDomotica"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0"/>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="18">
+      <Unit0>
+        <Filename Value="prDomotica.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="src/ufprincipal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="src/factorymethod/ufoco.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uFoco"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="src/factorymethod/ufococreator.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uFocoCreator"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="src/factorymethod/ufocohabitacion.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uFocoHabitacion"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="src/factorymethod/ufocolampara.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uFocoLampara"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="src/factorymethod/ufocomanager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uFocoManager"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="src/factorymethod/ufocopasillo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uFocoPasillo"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="src/factorymethod/ufocotype.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uFocoType"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="src/prototype/uprototype.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uPrototype"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="src/state/uapagado.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uApagado"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="src/state/ucontext.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uContext"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="src/state/uencendido.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uEncendido"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="src/state/ufueradeservicio.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uFueraDeServicio"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="src/state/uluzmedia.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uLuzMedia"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="src/state/ustate.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uState"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="src/state/ustatetype.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uStateType"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="src/uclient.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uClient"/>
+      </Unit17>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <SearchPaths>
+      <IncludeFiles Value="src;src/factorymethod;src/prototype;src/state"/>
+      <OtherUnitFiles Value="src;src/factorymethod;src/prototype;src/state"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <SyntaxMode Value="delphi"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CustomOptions Value="-dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="4">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+      <Item4>
+        <Name Value="Exception"/>
+      </Item4>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
