@@ -12,4 +12,4 @@
 
 * Free Pascal Compiler version 3.0.4
 
-Lo importante de este proyecto es la arquitectura, otros topicos como el modelo de negocio, caso de uso, etc. no es relevante
+**Lo importante de este proyecto es el uso de patrones de diseño, otros topicos como el modelo de negocio, casos de uso, etc. no es relevante**
