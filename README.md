@@ -1,4 +1,6 @@
-# domotica-control-de-focos
+# Domotica (control de focos)
+
+**Examen de patrones de diseño**
 
 **Lenguaje:**
 
